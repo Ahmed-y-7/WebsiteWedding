@@ -110,6 +110,8 @@ section{
     justify-content: center;
     padding:2rem;
     margin-bottom: 4rem;
+    background-size: cover !important;
+    background-size: center !important; 
 }
 
 .home .slide .content{
@@ -223,6 +225,218 @@ text-transform: uppercase;
 
 
 
+
+
+
+.about{
+    text-align: center;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.about img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.about h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+
+.about p{
+    font-size: 1.5rem;
+    padding:1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+
+
+.team .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5em;
+}
+
+.team .box-container .box{
+    border-radius: .5rem;
+    background: var(--transparent-white);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.team .box-container .box img{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.team .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+.team .box-container .box p{
+    margin:.5rem 0;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.team .box-container .box .share{
+    margin-top: .5rem;
+
+}
+
+
+.team .box-container .box .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    background: var(--black);
+    border-radius: .5rem;
+    color: var(--black);
+    margin: .5rem 0;
+}
+
+
+.team .box-container .box .share a:hover{
+    background: var(--pink);
+
+}
+
+.portfolio .portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5em;
+}
+
+
+.portfolio .portfolio-container .box{
+    background: var(--transparent-white);
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+
+
+}
+
+
+.portfolio .portfolio-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+
+}
+
+.portfolio .portfolio-container .box .image img{
+    transition: .2s linear;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.portfolio .portfolio-container .box:hover .image img{
+    transform: scale(1.1);
+
+}
+
+.portfolio .portfolio-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    text-align: center;
+    padding:1rem;
+    text-transform: uppercase;
+
+}
+
+
+
+.pricing .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1rem;
+
+}
+.pricing .box-container .box{
+    text-align: center;
+    border-radius: .5rem;
+    background: var(--transparent-white);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
+.pricing .box-container .box h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+
+.pricing .box-container .box .pricing{
+    padding: 1rem;
+    border-radius: .5rem;
+    background: var(--pink);
+    color: var(--white);
+    font-size: 3rem;
+    margin:1rem 0;
+}
+
+.pricing .box-container .list p{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem0;
+}
+
+.pricing .box-container.box .list p i{
+
+    padding-right: .5rem;
+    color: var(--pink);
+}
+
+.reviews .slide{
+    margin-bottom: 4rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding:2rem;
+
+}
+
+.reviews .slide .img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+
+.reviews .slide h3{ 
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+.reviews .slide p{
+    font-size: 1.5rem;
+    line-height: 2;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.reviews .slide .stars{
+    margin-top: 1rem;
+}
+
+.reviews .slide .stars i{
+    font-size: 1.7rem;
+    color: var(--pink);
+}
 
 
 
@@ -351,5 +565,9 @@ transform: rotate(180deg);
 
     .container{
         margin: 2rem;
+    }
+    .services .slide .content p{
+        font-size: 1.3rem;
+
     }
 }
