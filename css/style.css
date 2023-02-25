@@ -391,7 +391,7 @@ text-transform: uppercase;
 .pricing .box-container .list p{
     font-size: 1.5rem;
     color: var(--black);
-    padding: 1rem0;
+    padding: 1rem 0;
 }
 
 .pricing .box-container.box .list p i{
