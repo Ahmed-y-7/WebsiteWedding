@@ -148,7 +148,7 @@ line-height: 2;
 }
 
 .swiper-pagination{
-    bottom: 0; !important;
+    bottom: 0 !important;
 }
 
 .swiper-pagination-bullet-active{
