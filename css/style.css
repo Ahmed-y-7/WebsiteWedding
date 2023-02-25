@@ -361,7 +361,7 @@ text-transform: uppercase;
 .pricing .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1rem;
+    gap:1.5rem;
 
 }
 .pricing .box-container .box{
@@ -379,7 +379,7 @@ text-transform: uppercase;
 }
 
 
-.pricing .box-container .box .pricing{
+.pricing .box-container .box .price{
     padding: 1rem;
     border-radius: .5rem;
     background: var(--pink);
@@ -388,16 +388,16 @@ text-transform: uppercase;
     margin:1rem 0;
 }
 
-.pricing .box-container .list p{
+.pricing .box-container .box .list p{
     font-size: 1.5rem;
     color: var(--black);
     padding: 1rem 0;
 }
 
-.pricing .box-container.box .list p i{
+.pricing .box-container .box .list p i{
 
     padding-right: .5rem;
-    color: var(--pink);
+    color:var(--pink);
 }
 
 .reviews .slide{

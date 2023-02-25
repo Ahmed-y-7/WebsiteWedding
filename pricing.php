@@ -29,7 +29,7 @@
         <div class="box-container">
             <div class="box">
                 <h3>Basic Plan</h3>
-                <div class="price">250SR/-</div>
+                <div class="price">250SR</div>
                 <div class="list">
                     <p> <i class="fas fa-check"></i> Photography</p>
                     <p> <i class="fas fa-check"></i> Bribe makeup</p>
@@ -42,7 +42,7 @@
 
             <div class="box">
                 <h3>Premium Plan</h3>
-                <div class="price">950SR/-</div>
+                <div class="price">950SR</div>
                 <div class="list">
                     <p> <i class="fas fa-check"></i> Photography</p>
                     <p> <i class="fas fa-check"></i> Bribe makeup</p>
@@ -55,7 +55,7 @@
 
             <div class="box">
                 <h3>Ultimate Plan</h3>
-                <div class="price">1500SR/-</div>
+                <div class="price">1500SR</div>
                 <div class="list">
                     <p> <i class="fas fa-check"></i> Photography</p>
                     <p> <i class="fas fa-check"></i> Bribe makeup</p>
@@ -66,14 +66,7 @@
                 <a href="contact.php" class="btn">Choose the plan</a>
             </div>  
 
-
-
-
-
-
-
         </div> 
-
 
     </section>
 
@@ -163,15 +156,11 @@
             </div>
         </div>
 
-
-
-
-
-        </div>
+     </div>
 
         <div class="swiper-pagination"></div>
 
-        </div>
+    </div>
 
 </section>
 
